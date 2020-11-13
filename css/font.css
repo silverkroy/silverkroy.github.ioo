@@ -1,0 +1,48 @@
+A:hover {
+	color:#FF4500;
+} /*Псевдокласс для ссылки при наведении*/
+
+@font-face {
+    font-family: MyShrift;
+    src: url(fonts/shrift.ttf);
+   } /*Шрифт*/
+   
+.for_p {
+    font-family: MyShrift; 
+	color: green;
+   } /*Класс для абзаца*/
+   
+.red_p {
+	color:red;
+} /*Класс для красного текста в абзаце*/
+
+LI {
+	color: purple;
+} /* селектор тега лист*/
+ 
+.hr-circle {
+	margin-left: 600px ;
+	padding: 0;
+	height: 0;
+	width: 4%;
+	border: none;
+	border-width: 0 0 5px;
+	border-style: solid;
+	border-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2 1" width="8" height="4"><circle fill="yellow" cx="1" cy="0.5" r="0.5"></circle></svg>') 0 0 100% repeat;
+	background-position: 50%;
+	box-sizing: border-box;
+	color: red;	
+} /*класс для hr делает круглые точки*/
+
+body {
+	background-image:url(../img/11.jpg); 
+	background-size:100%
+	} /*свойства тело страницы*/
+	
+h1 {
+	font-family:MyShrift;
+} /*свойство первого типа заголовков*/
+
+strong {
+		color:green;
+} /*свойство для выделеного текста*/
